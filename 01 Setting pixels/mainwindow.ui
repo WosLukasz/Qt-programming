@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1578</width>
+    <height>1167</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="Okno" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>450</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>450</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>450</width>
+      <height>300</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QSlider" name="SliderX">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>20</y>
+      <width>451</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>400</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="SliderY">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>59</y>
+      <width>22</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>250</number>
+    </property>
+    <property name="value">
+     <number>250</number>
+    </property>
+    <property name="sliderPosition">
+     <number>250</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Okno2" name="widget2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>370</y>
+      <width>1400</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1400</width>
+      <height>600</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="czysc">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>czyść</string>
+    </property>
+   </widget>
+   <widget class="Okno3" name="widget3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>10</y>
+      <width>550</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>550</width>
+      <height>350</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>550</width>
+      <height>350</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="przy">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>200</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WŁĄCZ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1578</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Okno</class>
+   <extends>QWidget</extends>
+   <header>okno.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Okno2</class>
+   <extends>QWidget</extends>
+   <header>okno2.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Okno3</class>
+   <extends>QWidget</extends>
+   <header>okno3.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
